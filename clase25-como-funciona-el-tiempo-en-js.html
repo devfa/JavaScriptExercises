@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        /* console.log('a');
+        setTimeout(() => console.log('b'), 0);
+        console.log('c'); */
+
+        /* tipos de tareas asíncronas
+            *Ejecución de tareas en un cierto tiempo (delay) 
+            *si se interactua con el DOM (modificando algun elemento de la pantala)
+            *Petición de datos al servidor o a un servidor externo
+            *Mostrar un alert
+        */
+        //JavaScript ejecuta primero el programa principal. Cuando hay una llamada asíncrona (como en este caso setTimeOut) este lenguaje va a mandar la función asíncrona al EventLoop para que cuando se termine de ejecutar el programa principal, se ejecuten las funciones asíncronas que están en el EventLoop
+
+        //En este caso la función setTimeOut se ejecuta 2 segundos después de que el programa principal haya terminado
+        //setTimeout(() => console.log('d'), 2000);
+        alert("hola");
+        for(var i = 0; i < 10000000000; i ++) {
+
+        }
+
+        
+    </script>
+</body>
+</html>
